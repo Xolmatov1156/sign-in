@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('./fonts/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, orange, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+.site_main {
+    width: 475px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.site_title {
+    width: 285px;
+    height: 39px;
+    margin: 44px 0px 0px 66px;
+    display:flex;
+    gap: 12px;
+}
+
+.site_title_object {
+    height: 32px;
+    width: 5px;
+    background-color: orange;
+}
+
+.site_title_word {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.site_word {
+    text-align: center;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.site_word h2 {
+    font-size: 22px;
+}
+
+.site_word p {
+    font-size: 14px;
+}
+
+.site_main_login {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 30px;
+    gap: 20px;
+    height: 225px;
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 415px;
+    border-radius: 5px;
+    border: 1px solid rgb(182, 180, 180);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 225px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.site_button {
+    margin-top: 35px;
+}
+
+.site_button button {
+    width: 415px;
+    height: 44px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.site_link {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.site_link a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
